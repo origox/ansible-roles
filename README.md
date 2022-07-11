@@ -16,6 +16,9 @@ $ python3 -m pip install -r requirements.txt
 ## 2. Create a new role skeleton
 ```
 $ molecule init role origox.my_new_role --driver-name docker
+
+# Remove unused files i.e. .travis.yml
+# Add additional files i.e. .yamllint .ansible-lint
 ```
 
 ## 3. Implement role functionality
